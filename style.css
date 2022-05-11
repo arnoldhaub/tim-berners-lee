@@ -1,6 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    color: #7d7d7d;
+    color: #9d9d9d;
     background-color: #ebebeb ;
     width: 60%;
     margin: auto;
@@ -14,6 +14,10 @@ body {
 
 h1 {
     color: #dd5555;
+}
+
+h2, h3 {
+    color: #7d7d7d;
 }
 
 
@@ -120,11 +124,11 @@ header button {
      margin-bottom: 40px;
  }
 .img {
-    width: 20%;
+    width: 15%;
     margin: auto;
 }
 .text {
-    width: 80%;
+    width: 85%;
 }
  .text p{
      text-align: left;
@@ -136,3 +140,19 @@ header button {
 couleur div ffffff
 
 i color cccccc */
+
+/************** RESPONSIVE *******************/
+
+@media only screen and (max-width: 720px) {
+    body {
+      width: 90%;
+    }
+
+    .img {
+        width: 25%;
+        margin: auto;
+    }
+    .text {
+        width: 75%;
+    }
+  }
