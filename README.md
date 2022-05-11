@@ -1,8 +1,8 @@
 # PIXEL PERFECT - Tim Berners-Lee
 
-**Duration:** 180 min
-**Deadline:** 11/05/22 - 14h00
-**Team challenge:** Solo
+- **Duration:** 180 min
+- **Deadline:** 11/05/22 - 14h00
+- **Team challenge:** Solo
 
 ## Mission objectives
 
@@ -13,7 +13,8 @@
 
 ## More information ?
 
-[Come check here](https://github.com/becodeorg/Swartz-6/blob/main/1.The-Field/8.Html-CSS/tim-berners-lee.adoc)
+- [Come check here the instructions](https://github.com/becodeorg/Swartz-6/blob/main/1.The-Field/8.Html-CSS/tim-berners-lee.adoc)
+- [See the result of my work](https://arnoldhaub.github.io/tim-berners-lee/)
 
 Wish me good luck. May the Force be with us !
 
