@@ -23,7 +23,8 @@ header {
     background-color: white;
     border: 1px solid #cccccc;
     border-radius: 7px;
-    box-shadow: 1px 1px 3px #e9e9e9;
+    /* box-shadow: 1px 1px 3px #e9e9e9; */
+    box-shadow: 1px 1px 1px #CCCCCC;
     padding: 20px;
 }
 
@@ -54,16 +55,34 @@ header button {
     margin-top: 30px;
     text-align: center;
     background-color: white;
-    border: 1px solid #cccccc;
     border-radius: 7px;
-    box-shadow: 1px 1px 3px #e9e9e9;
+    box-shadow: 1px 1px 1px #CCCCCC;
     padding: 20px;
+    min-height: 100px;
+
+    display: flex;
+    flex-direction: column;
+
+    
  }
 
- li {
+ .zone:nth-child(1){
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     align-content: center;
+     margin: auto;
+
+ }
+ li, ul {
     list-style: none;
     display:inline-block;
     color: #CCCCCC;
+    font-size: smaller;
+    padding: 0;
+    margin: 0;
+    margin: auto;
+    
     
 
  }
@@ -72,32 +91,37 @@ header button {
      margin-left: 30px;
  }
 
- /* FAVORITE MOVIE */
-
-.zone:last-child {
-    margin-top: 30px;
-    text-align: center;
-    background-color: white;
-    border: 1px solid #cccccc;
-    border-radius: 7px;
-    box-shadow: 1px 1px 3px #e9e9e9;
-    padding: 20px;
-
-    display: flex;
-    flex-direction: column;
-    
+ i {
+     font-size: 25px;
+     margin-bottom: 5px;
  }
+
+ i:hover {
+     font-size: 35px;
+ }
+
+ .center {
+     margin: auto;
+ }
+ /* FAVORITE MOVIE */
 
  .zone img {
     max-width: 100%;
+    
  }
 
  .container {
      display: flex;
      flex-direction: row;
+     margin-bottom: 30px;
+ }
+
+.zone h2 {
+     margin-bottom: 40px;
  }
 .img {
     width: 20%;
+    margin: auto;
 }
 .text {
     width: 80%;
