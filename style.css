@@ -143,10 +143,10 @@ i color cccccc */
 
 /************** RESPONSIVE *******************/
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 768px){
     body {
-      width: 90%;
-      font-size: large;
+      width: 95%;
+      
     }
 
     .img {
